@@ -1,0 +1,232 @@
+#th{
+  color: rgb(130, 93, 33);
+  font-size:larger;
+}
+
+
+  
+
+    #closeBtn {
+      font-weight: 700;
+      margin: 20px;
+      padding: 0.6em 2em;
+      border: none;
+      outline: none;
+      color: rgb(255, 255, 255);
+      background: #111;
+      cursor: pointer;
+      position: relative;
+      z-index: 0;
+      border-radius: 10px;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+    
+    #closeBtn:before {
+      content: "";
+      background: linear-gradient(
+        45deg,
+        #ff0000,
+        #ff7300,
+        #fffb00,
+        #48ff00,
+        #00ffd5,
+        #002bff,
+        #7a00ff,
+        #ff00c8,
+        #ff0000
+      );
+      position: absolute;
+      top: -2px;
+      left: -2px;
+      background-size: 400%;
+      z-index: -1;
+      filter: blur(5px);
+      -webkit-filter: blur(5px);
+      width: calc(100% + 4px);
+      height: calc(100% + 4px);
+      animation: glowing-button-85 20s linear infinite;
+      transition: opacity 0.3s ease-in-out;
+      border-radius: 10px;
+    }
+    
+    @keyframes glowing-button-85 {
+      0% {
+        background-position: 0 0;
+      }
+      50% {
+        background-position: 400% 0;
+      }
+      100% {
+        background-position: 0 0;
+      }
+    }
+    
+    #closeBtn:after {
+      z-index: -1;
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #222;
+      left: 0;
+      top: 0;
+      border-radius: 10px;
+    }
+
+  
+
+
+
+/* CSS */
+#createBtn {
+  margin: 20px;
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#createBtn:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+#createBtn:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+.funButtons{
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #ff00c8,
+    #ff0000
+  );
+
+  font-weight: 700;
+    margin-left: 10px;
+  outline: 0;
+  grid-gap: 8px;
+  align-items: center;
+  background-color: #ee0707;
+  color: #0c0c0c;
+  border: 1px solid #000;
+  border-radius: 20px;
+  cursor: pointer;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-size: 16px;
+  gap: 8px;
+  justify-content: center;
+  line-height: 1.5;
+  overflow: hidden;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  transition: all .14s ease-out;
+  white-space: nowrap;
+}
+.funButtons:hover {
+  box-shadow: 4px 4px 0 #000;
+  transform: translate(-4px,-4px);
+  border-radius: 5px;
+
+}
+.funButtons:focus-visible{
+  outline-offset: 1px;
+}
+
+.funButtons1{
+
+  background: linear-gradient(
+    45deg,
+    #aaf246,
+    #16efcb,
+    #4d93f5,
+    #ec89d5
+  );
+
+  font-weight: 700;
+  margin-left: 10px;
+outline: 0;
+grid-gap: 8px;
+align-items: center;
+color: #121010;
+border: 1px solid #000;
+border-radius: 20px;
+cursor: pointer;
+display: inline-flex;
+flex-shrink: 0;
+font-size: 16px;
+gap: 8px;
+justify-content: center;
+line-height: 1.5;
+overflow: hidden;
+padding: 8px 16px;
+text-decoration: none;
+text-overflow: ellipsis;
+transition: all .14s ease-out;
+white-space: nowrap;
+}
+.funButtons1:hover {
+box-shadow: 4px 4px 0 #000;
+transform: translate(-4px,-4px);
+border-radius: 5px;
+}
+.funButtons1:focus-visible{
+outline-offset: 1px;
+}

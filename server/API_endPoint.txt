@@ -1,0 +1,7 @@
+BACKEND
+https://localhost:8080/api/users/getDetails-> signUp data
+https://localhost:8080/api/details/get   ->created data
+https://localhost:8080/api/details/data/6612438c0865aea5c7886fdb ->update data
+https://localhost:8080/api/details/Details/  ->delete data
+
+
